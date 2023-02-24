@@ -1,6 +1,5 @@
 /*
-Copyright © 2023 NAME HERE <EMAIL ADDRESS>
-
+Copyright © 2023 Austin Poor <code@austinpoor.com>
 */
 package cmd
 
@@ -13,7 +12,7 @@ import (
 // runCmd represents the run command
 var runCmd = &cobra.Command{
 	Use:   "run",
-	Short: "A brief description of your command",
+	Short: "Run a red-tape reverse proxy server.",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 

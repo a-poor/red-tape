@@ -1,6 +1,5 @@
 /*
-Copyright © 2023 NAME HERE <EMAIL ADDRESS>
-
+Copyright © 2023 Austin Poor <code@austinpoor.com>
 */
 package cmd
 
@@ -13,7 +12,7 @@ import (
 // initCmd represents the init command
 var initCmd = &cobra.Command{
 	Use:   "init",
-	Short: "A brief description of your command",
+	Short: "Initialize a new red-tape.yaml config file.",
 	Long: `A longer description that spans multiple lines and likely contains examples
 and usage of using your command. For example:
 
